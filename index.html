@@ -159,7 +159,7 @@
 
         </div>
     </section>
-
+ 
     <section class="our-works">
         <div class="wrapper">
             <div class="all-projects">
@@ -183,6 +183,7 @@
             <a href="#" class="button">Load more</a>
         </div>
     </section>
+   
     <section class="testimonials">
         <div class="wrapper">
             <div class="testimonial">
@@ -191,9 +192,6 @@
                 <p class="testimonial-author">JANE GALADRIEL</p>
                 <p class="testimonial-author-position">CEO TENGKUREP</p>
                 <div class="testimonial-carousel">
-                    <div class="arrow-back">
-                        <img src="images/arrow-back.png" alt="">
-                    </div>
                    <div class="author-photo-wrapper">
                        <img src="images/author-1.png" alt="">
                     </div>
@@ -208,9 +206,6 @@
                      </div>
                      <div class="author-photo-wrapper">
                         <img src="images/author-5.png" alt="">
-                     </div>
-                     <div class="arrow-forward">
-                        <img src="images/arrow-forward.png" alt="">
                      </div>
                 </div>
             </div>         
@@ -272,63 +267,51 @@
         </div>
     </section> 
 
-<!--<footer>
-        <div class="footer_container">
-            <div class="footer_box">
-                <div class="footer_logo">
-                    <img src="img/VectorSmartObject.png" alt=""> 
-                    <p class="footer_logo_text">tajam</p>
+    <footer>
+        <div class="wrapper">
+            <div class="footer-wrapper">
+                <div class="footer-box">
+                    <div id="footer-logo" class="studio-title">
+                        <img src="images/logo.png" alt="logo"><span>tajam</span>
+                    </div>
+                    <p class="footer-text">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
                 </div>
-                <p class="footer_text"> lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
-            </div>
-            <div class="footer_box">
-                <h3 class="footer_studio_title">OUR STUDIO</h3>
-                <p class="footer_studio_position">
-                    <span>
-                        <svg  class="footer_svg"
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="14px" height="19px">
-                            <image  x="0px" y="0px" width="14px" height="19px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAATCAQAAAAKCfQfAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQsPCRkl5ULwAAABUklEQVQoz02QsUuXcRjEP/cmQkOQkGPQEA2NBYaDU39BpEMl0VI/KmowUIgIIgsTaYkaakkiopIgh5ZmoTlsaG2QwOA5aZDgR9fwfoue4ZY77rk7FSAyrgecyn7QTtaZ13cAFcAMb7TDczYCk1zQGLO8BIxnKl4uCtOj71d8tsD7nHpo/B9Z+F6lxvCLGjb9wNv1o672wvrlNZxaKYq67tRjP6p43hjfdXB8siicWjSmblfcmZpyukAnUGATAl+ALkhhhJ85w0clr/WKLX6zpvcZipzTLnXHaVnXHccfivZmSbWHIZd4BsARKV9F4LxWMyqTJ1xGQA9AUHjKoAtcEbolRBrFTWAAfeFrFe9tU1CjFc8V1Q8vss03HYcA+sThHBCha0YTOpYBgC7mRCbUJ3Az8w3Hh3ywUgvNHpl/9zbTwDtOgwjqybQa+awRjv6tA38AwzvcWNjBmAEAAAAASUVORK5CYII=" />
-                        </svg>
-                    </span> Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</p>
-                <p class="footer_studio_phone">
-                <span>
-                    <svg class="footer_svg"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        width="17px" height="17px">
-                        <image  x="0px" y="0px" width="17px" height="17px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAQAAACRZI9xAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQsPCC6EQ9a+AAABTUlEQVQoz12Sv0tcQRSFv/MYhK10QwjRQqwWzRaplCSNgljYxC6ySETETkgXbdwiJH+FNrERfzRWkuCyAYuIWwhKSMB+NSIyjzSpwknhe8+H1R04d+53zsxVigEB4KIC8FMjfs55AiD8oEGwpcf+zBmj4U64E/NJhrdq0MsfVdxRWtzPgUZ1/9A0X4A+YijIBRCoCzoG+KCrkEsqt+36Gbc80Q3v/Ca595LPEKAucMMJx+wFlT3kdqdZ16CXGCOIpJwkO73gQHP8ZcPj/INQtmkEE3zTe7aw1jgCICUlJdbiYiQlLqSOy5HUcSdTCGC0pHXES1+p6SlaMl+ZdZY0GDaZ92t1+C14xABmm0YewwT9ospTrgHR4xV9pMknoyJf8DDfuRZAvw9V9yTt+8cUJqGmV2p5xhu+VJeK2sV/ZChFGNKpq1xolf3ySuSg/5Uaiv+YAoA7AAAAAElFTkSuQmCC" />
-                    </svg>
-                </span> (+62) 21-2224 3333</p>
-            </div>
-            <div class="footer_box">
-                <h3 class="footer_stay_title">STAY IN TOUCH</h3>
-                <form action="">
-                    <input class="footer_stay_subscribe" type="email" name="" id="" placeholder="Subscribe our newsletter">
-                    <button class="footer_stay_button"></button>
-                </form>
-                <div class="soc_links">
-                    <a class="soc_link" href=""><img src="img/facebook.png" alt=""></a>
-                    <a class="soc_link" href=""><img src="img/twitter.png" alt=""></a>
-                    <a class="soc_link" href=""><img src="img/dribbble.png" alt=""></a>
-                    <a class="soc_link" href=""><img src="img/instagram.png" alt=""></a>
-                    <a class="soc_link" href=""><img src="img/gplus.png" alt=""></a>
-                    <a class="soc_link " href=""><img src="img/youtube.png" alt=""></a>
+                <div class="footer-box">
+                    <h3 class="studio-title">Our studio</h3>
+                    <p class="footer-location">
+                        <span><img src="images/location.png" alt="location icon"></span>
+                        Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia
+                    </p>
+                    <p class="footer-phone">
+                        <span><img src="images/phone.png" alt="phone icon"></span>
+                        (+62) 21-2224 3333
+                    </p>
                 </div>
+                <div class="footer-box">
+                    <h3 class="studio-title">Stay in touch</h3>
+                    <form action="">
+                        <input class="subscribe" type="email" name="" id="" placeholder="Subscribe our newsletter">
+                        <button class="subscribe-button"></button>
+                    </form>
+                    <div class="socials">
+                        <a href="#" class="social-link"><img src="images/facebook25.png" alt="facebook"></a>
+                        <a href="#" class="social-link"><img src="images/twitter16.png" alt="twitter"></a>
+                        <a href="#" class="social-link"><img src="images/dribbble4.png" alt="dribble"></a>
+                        <a href="#" class="social-link"><img src="images/instagram3.png" alt="instagram"></a>
+                        <a href="#" class="social-link"><img src="images/google26.png" alt="google plus"></a>
+                        <a href="#" class="social-link"><img src="images/youtube13.png" alt="youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Terms & condition</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+                <p>Copyright © 2015 - Tajem Creative</p>
             </div>
         </div>
-        <div class="footer_links_box">
-            <div class="foter_links">
-                <a href="" class="footer_link">HOME</a>
-                 
-<a href="" class="footer_link">TERMS & CONDITION</a>
-                <a href="" class="footer_link">PRIVACY</a>
-            </div>
-            <p class="copyright">Copyright © 2015 - Tajem Creativ</p>
-       </div>
-    </footer>-->
-    
-
+    </footer>
 </body>
 </html>
