@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/YuriSmal.github.io/static/css/main.d690786a.chunk.css",
+    "main.js": "/YuriSmal.github.io/static/js/main.cc2c80b0.chunk.js",
+    "main.js.map": "/YuriSmal.github.io/static/js/main.cc2c80b0.chunk.js.map",
+    "runtime-main.js": "/YuriSmal.github.io/static/js/runtime-main.22d9ac77.js",
+    "runtime-main.js.map": "/YuriSmal.github.io/static/js/runtime-main.22d9ac77.js.map",
+    "static/js/2.ad16c8a3.chunk.js": "/YuriSmal.github.io/static/js/2.ad16c8a3.chunk.js",
+    "static/js/2.ad16c8a3.chunk.js.map": "/YuriSmal.github.io/static/js/2.ad16c8a3.chunk.js.map",
+    "index.html": "/YuriSmal.github.io/index.html",
+    "static/css/main.d690786a.chunk.css.map": "/YuriSmal.github.io/static/css/main.d690786a.chunk.css.map",
+    "static/js/2.ad16c8a3.chunk.js.LICENSE.txt": "/YuriSmal.github.io/static/js/2.ad16c8a3.chunk.js.LICENSE.txt",
+    "static/media/Maintenance.css": "/YuriSmal.github.io/static/media/gendalf.c56ec68a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22d9ac77.js",
+    "static/js/2.ad16c8a3.chunk.js",
+    "static/css/main.d690786a.chunk.css",
+    "static/js/main.cc2c80b0.chunk.js"
+  ]
+}
